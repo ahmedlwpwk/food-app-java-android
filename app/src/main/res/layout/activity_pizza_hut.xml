@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rest_background"
+    tools:context=".PizzaHut">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#00FF9800">
+
+            <ImageView
+                android:id="@+id/toback4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="?attr/actionModeCloseDrawable"
+                android:padding="10dp" />
+
+            <ImageView
+                android:id="@+id/cart2"
+                android:layout_width="52dp"
+                android:layout_height="51dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cart"
+                android:padding="10dp">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logomakerca_1661351681238" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="129dp"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Pizza Hut"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <RelativeLayout
+
+                android:id="@+id/R1PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffd4d2d3">
+
+
+                <TextView
+                    android:id="@+id/T1_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Cheese Pizza"
+                    android:textColor="#9E9D24"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T1_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="50"
+                    android:textColor="#9E9D24"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:textColor="#9E9D24"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cheese" />
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="15sp">
+
+            <RelativeLayout
+
+                android:id="@+id/R2PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#ffd4d2d3">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="240dp"
+                    android:background="@drawable/margrita" />
+
+                <TextView
+                    android:id="@+id/T2_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Margrita Pizza"
+                    android:textColor="#494949"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T2_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:padding="20dp"
+                    android:text="55"
+                    android:textColor="#494949"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#494949"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp">
+
+
+            <RelativeLayout
+                android:id="@+id/R3PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffd4d2d3">
+
+
+                <TextView
+                    android:id="@+id/T3_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Meet Pizza"
+                    android:textColor="#393838"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T3_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="30"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="107dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/meet" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <RelativeLayout
+
+                android:id="@+id/R4PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffd4d2d3">
+
+
+                <TextView
+                    android:id="@+id/T4_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Peproni Pizza"
+                    android:textColor="#9E9D24"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T4_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="35"
+                    android:textColor="#9E9D24"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:textColor="#9E9D24"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"/>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/peproni" />
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="15sp">
+
+            <RelativeLayout
+
+                android:id="@+id/R5PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#ffd4d2d3">
+
+
+                <ImageView
+                    android:layout_width="170dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/pizza" />
+
+                <TextView
+                    android:id="@+id/T5_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Sea Food Pizza"
+                    android:textColor="#494949"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T5_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:padding="20dp"
+                    android:text="40"
+                    android:textColor="#494949"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#494949"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+
+            <RelativeLayout
+                android:id="@+id/R6PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="#ffd4d2d3">
+
+
+                <TextView
+                    android:id="@+id/T6_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Supreme Pizza"
+                    android:textColor="#393838"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T6_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="45"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/supreme" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+
+            <RelativeLayout
+                android:id="@+id/R7PizzaHut"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#ffd4d2d3">
+
+
+                <TextView
+                    android:id="@+id/T7_1PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:padding="20dp"
+                    android:text="Vegetables Pizza"
+                    android:textColor="#393838"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/T7_2PizzaHut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="45"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="20dp"
+                    android:text="$"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#393838"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/vegetables" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
