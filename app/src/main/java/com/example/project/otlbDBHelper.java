@@ -77,12 +77,12 @@ public class otlbDBHelper extends SQLiteOpenHelper {
         otlbDatabase.close();
         if(cursor.getCount() > 0)
         {
-                loginFlag = true;
-                return true;
+                loginFlag = false;
+                return false;
         }
         else
         {
-            return false;
+            return true;
         }
     }
 
@@ -207,3 +207,4 @@ public class otlbDBHelper extends SQLiteOpenHelper {
         otlbDatabase.close();
     }
 }
+
